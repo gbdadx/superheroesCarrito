@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mystery+Quest&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    background-image: url('./img/azul1.avif');
+    color:#fff;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#header{
+    width: 100vw;
+    height: 3rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem ;
+    z-index: 1000;
+    font-family: 'Mystery Quest';
+}
+#logo{
+    width:50%;
+   text-align: left;
+
+}
+#contador-index{
+width: 50%;
+text-align: right;
+}
+
+#main{
+    padding-top: 2rem;
+}
+#footer{
+    align-items: center;
+    height: 3rem;
+}
+
+.tarjetero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.card {
+    width: 15rem;
+    height: 25rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 8px 24px;
+    position: relative;
+}
+.card .cardH {
+    width: 100%;
+}
+.card .cardH img {
+    width:100%;
+    margin:0px;
+    height: 18rem;
+}
+
+.card .cardB {
+    height: 7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1.5rem;
+  padding-left: 1rem;
+ 
+   
+    
+}
+
+.card .cardF {
+    height: 3rem;
+}
+
+.card .cardF button {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    color:white;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Mystery Quest';
+}
+
+#precio{
+    font-family: Montserrat, sans-serif;
+    position:absolute;
+    right:3rem;
+}
+
+/**
+spiner
+*/
+
+.blockS {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    background: #FFF;
+  }
+  
+  .blockS:nth-child(4n+1) { animation: wave 2s ease .0s infinite; }
+  .blockS:nth-child(4n+2) { animation: wave 2s ease .2s infinite; }
+  .blockS:nth-child(4n+3) { animation: wave 2s ease .4s infinite; }
+  .blockS:nth-child(4n+4) { animation: wave 2s ease .6s infinite; margin-right: 0; }
+  
+  @keyframes wave {
+    0%   { top: 0;     opacity: 1; }
+    50%  { top: 30px;  opacity: .2; }
+    100% { top: 0;     opacity: 1; }
+  }
+  
+.containerS {
+    width: 80px;
+    height: 100px;
+    margin: 100px auto;
+    margin-top: calc(100vh / 2 - 50px);
+  }

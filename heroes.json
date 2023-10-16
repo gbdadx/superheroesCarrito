@@ -1,0 +1,345 @@
+{
+    "response": "success",
+    "results-for": "all",
+    "results": [
+      {
+        "id": "19",
+        "name": "Allan Quatermain",
+        "powerstats": {
+          "intelligence": "null",
+          "strength": "null",
+          "speed": "null",
+          "durability": "null",
+          "power": "null",
+          "combat": "null"
+        },
+        "biography": {
+          "full-name": "",
+          "alter-egos": "No alter egos found.",
+          "aliases": [
+            "-"
+          ],
+          "place-of-birth": "-",
+          "first-appearance": "(original version) King Solomon's Mines; (this version) League of Extraordinary Gentlemen #1 (America's Best Comics)",
+          "publisher": "Wildstorm",
+          "alignment": "good"
+        },
+        "appearance": {
+          "gender": "Male",
+          "race": "null",
+          "height": [
+            "-",
+            "0 cm"
+          ],
+          "weight": [
+            "- lb",
+            "0 kg"
+          ],
+          "eye-color": "-",
+          "hair-color": "-"
+        },
+        "work": {
+          "occupation": "(former) hunter; (current) agent of the British government",
+          "base": "The Secret Wing of the British Museum, London"
+        },
+        "connections": {
+          "group-affiliation": "League of Extraordinary Gentlemen",
+          "relatives": "-"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/630.jpg"
+        }
+      },
+      {
+        "id": "146",
+        "name": "Callisto",
+        "powerstats": {
+          "intelligence": "63",
+          "strength": "53",
+          "speed": "23",
+          "durability": "42",
+          "power": "52",
+          "combat": "85"
+        },
+        "biography": {
+          "full-name": "Callisto",
+          "alter-egos": "No alter egos found.",
+          "aliases": [
+            "-"
+          ],
+          "place-of-birth": "-",
+          "first-appearance": "X-MEN (first series) #169",
+          "publisher": "Marvel Comics",
+          "alignment": "bad"
+        },
+        "appearance": {
+          "gender": "Female",
+          "race": "null",
+          "height": [
+            "5'9",
+            "175 cm"
+          ],
+          "weight": [
+            "165 lb",
+            "74 kg"
+          ],
+          "eye-color": "Blue",
+          "hair-color": "Black"
+        },
+        "work": {
+          "occupation": "-",
+          "base": "The Xavier Institute, Salem Center, Westchester County, New York State, (former) The Alley (beneath Manhattan's surface), X-Factor I's sentient starship"
+        },
+        "connections": {
+          "group-affiliation": "Excalibur, Morlocks, Gene Nation",
+          "relatives": "-"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/271.jpg"
+        }
+      },
+      {
+        "id": "148",
+        "name": "Cannonball",
+        "powerstats": {
+          "intelligence": "50",
+          "strength": "28",
+          "speed": "67",
+          "durability": "99",
+          "power": "94",
+          "combat": "56"
+        },
+        "biography": {
+          "full-name": "Samuel Zachery Guthrie",
+          "alter-egos": "No alter egos found.",
+          "aliases": [
+            "Formerly Samson Guthry",
+            "Sam Guthrie",
+            "Jet-Ass"
+          ],
+          "place-of-birth": "Cumberland County, Kentucky",
+          "first-appearance": "Marvel Graphic Novel #4 (1982)",
+          "publisher": "Marvel Comics",
+          "alignment": "good"
+        },
+        "appearance": {
+          "gender": "Male",
+          "race": "null",
+          "height": [
+            "6'0",
+            "183 cm"
+          ],
+          "weight": [
+            "181 lb",
+            "81 kg"
+          ],
+          "eye-color": "Blue",
+          "hair-color": "Blond"
+        },
+        "work": {
+          "occupation": "Adventurer, peacekeeper, former student, mercenary, miner",
+          "base": "-"
+        },
+        "connections": {
+          "group-affiliation": "X-Men, formerly X.S.E., Mutant Liberation Front, X-Treme X-Men, X-Corporation, X-Force, New Mutants, Hellions, Hellfire Club",
+          "relatives": "Thomas Zebulon (father, deceased), Lucinda (mother), Lucas Bartholemew (uncle), Paige (Husk, sister), Joshua \"Jay\" (Icarus, brother, deceased), Joelle (sister), Elizabeth (sister), Melody (Aero, sister), Jebediah (brother), Lewis (brother), two other unnamed siblings, Ray Jr. (adopted brother)"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/272.jpg"
+        }
+      },
+      {
+        "id": "252",
+        "name": "Fallen One II",
+        "powerstats": {
+          "intelligence": "88",
+          "strength": "85",
+          "speed": "83",
+          "durability": "100",
+          "power": "100",
+          "combat": "56"
+        },
+        "biography": {
+          "full-name": "",
+          "alter-egos": "No alter egos found.",
+          "aliases": [
+            "-"
+          ],
+          "place-of-birth": "-",
+          "first-appearance": "-",
+          "publisher": "Marvel Comics",
+          "alignment": "bad"
+        },
+        "appearance": {
+          "gender": "Male",
+          "race": "null",
+          "height": [
+            "-",
+            "0 cm"
+          ],
+          "weight": [
+            "- lb",
+            "0 kg"
+          ],
+          "eye-color": "Black",
+          "hair-color": "Blue"
+        },
+        "work": {
+          "occupation": "-",
+          "base": "-"
+        },
+        "connections": {
+          "group-affiliation": "Heralds of Galactus",
+          "relatives": "-"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/1051.jpg"
+        }
+      },
+      {
+        "id": "445",
+        "name": "Metallo",
+        "powerstats": {
+          "intelligence": "75",
+          "strength": "53",
+          "speed": "23",
+          "durability": "95",
+          "power": "86",
+          "combat": "64"
+        },
+        "biography": {
+          "full-name": "John Corben",
+          "alter-egos": "No alter egos found.",
+          "aliases": [
+            "-"
+          ],
+          "place-of-birth": "-",
+          "first-appearance": "Superman Vol 2 #1 (January, 1987)",
+          "publisher": "DC Comics",
+          "alignment": "bad"
+        },
+        "appearance": {
+          "gender": "Male",
+          "race": "Android",
+          "height": [
+            "6'5",
+            "196 cm"
+          ],
+          "weight": [
+            "200 lb",
+            "90 kg"
+          ],
+          "eye-color": "Green",
+          "hair-color": "Brown"
+        },
+        "work": {
+          "occupation": "Professional criminal",
+          "base": "Mobile, though he generally operates out of Metropolis"
+        },
+        "connections": {
+          "group-affiliation": "Superman Revenge Squad",
+          "relatives": "-"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/737.jpg"
+        }
+      },
+      {
+        "id": "503",
+        "name": "One-Above-All",
+        "powerstats": {
+          "intelligence": "100",
+          "strength": "100",
+          "speed": "100",
+          "durability": "100",
+          "power": "100",
+          "combat": "100"
+        },
+        "biography": {
+          "full-name": "",
+          "alter-egos": "No alter egos found.",
+          "aliases": [
+            "One Above All"
+          ],
+          "place-of-birth": "-",
+          "first-appearance": "Doctor Strange Vol 2 #13",
+          "publisher": "Marvel Comics",
+          "alignment": "neutral"
+        },
+        "appearance": {
+          "gender": "-",
+          "race": "Cosmic Entity",
+          "height": [
+            "-",
+            "0 cm"
+          ],
+          "weight": [
+            "- lb",
+            "0 kg"
+          ],
+          "eye-color": "-",
+          "hair-color": "-"
+        },
+        "work": {
+          "occupation": "-",
+          "base": "-"
+        },
+        "connections": {
+          "group-affiliation": "-",
+          "relatives": "Living Tribunal (creation)"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/10374.jpg"
+        }
+      },
+      {
+        "id": "614",
+        "name": "Speedball",
+        "powerstats": {
+          "intelligence": "null",
+          "strength": "null",
+          "speed": "null",
+          "durability": "null",
+          "power": "null",
+          "combat": "null"
+        },
+        "biography": {
+          "full-name": "Robert Baldwin",
+          "alter-egos": "Penance II",
+          "aliases": [
+            "Penance",
+            "Masked Marvel"
+          ],
+          "place-of-birth": "Springdale, Connecticut",
+          "first-appearance": "Amazing Spider-Man Annual #22, (chronologically) Speedball #1",
+          "publisher": "Penance II",
+          "alignment": "good"
+        },
+        "appearance": {
+          "gender": "Male",
+          "race": "null",
+          "height": [
+            "-",
+            "0 cm"
+          ],
+          "weight": [
+            "- lb",
+            "0 kg"
+          ],
+          "eye-color": "-",
+          "hair-color": "-"
+        },
+        "work": {
+          "occupation": "Student, superhero",
+          "base": "Mobile; formerly New Warriors Headquarters"
+        },
+        "connections": {
+          "group-affiliation": "New Warriors",
+          "relatives": "Maddie Baldwin (mother), Justin Baldwin (father)"
+        },
+        "image": {
+          "url": "https://www.superherodb.com/pictures2/portraits/10/100/132.jpg"
+        }
+      }
+    ]
+  }

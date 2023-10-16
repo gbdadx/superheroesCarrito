@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mystery+Quest&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+font-family: Montserrat, sans-serif;
+background-image: url('./img/azul1.avif');
+background-position: right;
+background-size:cover;
+background-repeat: no-repeat;
+color:#fff;
+}
+
+#header{
+    width: 100vw;
+    height: 3rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem ;
+    z-index: 1000;
+    font-family: 'Mystery Quest';
+    
+}
+#logo{
+    width:50%;
+   text-align: left;
+
+}
+#contador-index{
+width: 50%;
+text-align: right;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+    width: 100vw;
+    height:fit-content;
+}
+.numeroArriba{
+    z-index: 1000;
+}
+
+
+
+.star {
+    color: goldenrod;
+}
+
+#precio{
+    font-family: Montserrat, sans-serif;
+    position:absolute;
+    right:3rem;
+}
+
+
+table th {
+    text-align: left
+}
+
+table td {
+    text-align: right;
+}
+
+
+.contenedor,
+.contendorImagen {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+    justify-content: flex-start;
+
+}
+.contenedor{
+    padding-right: 10rem;
+}
+
+.contendorImagen {
+    width: 50%;
+
+}
+
+.imagenDetalle {
+    width: 60%;
+    border-radius:49% 51% 51% 49% / 100% 0% 100% 0% ;
+
+}
+
+h3 {
+    padding-bottom: 0.25rem;
+}
+
+.block {
+    padding-bottom: 0.5rem;
+}
+
+button {
+   
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    color:white;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+.regreso {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end !important;
+}
+
+.btn {
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Mystery Quest';
+}
+select{
+    border-radius: 0.5rem;
+    font-size: larger;
+}
+/**mediasqueries */
+/** Media Queries */
+@media (max-width: 996px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contenedor,
+    .contendorImagen {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:300px){
+html{
+    font-size: 10px;
+}
+}
+
+@media(min-width:300px){
+    html{
+        font-size: 12px;
+    }
+    }
+    
+@media(min-width:540px){
+    html{
+        font-size: 14px;
+    }
+    }
+    
+@media(min-width:756px){
+    html{
+        font-size: 16px;
+    }
+    }
+     
+@media(min-width:1000px){
+    html{
+        font-size: 18px;
+    }
+    }
+     
+@media(min-width:1400px){
+    html{
+        font-size: 20px;
+    }
+    }
