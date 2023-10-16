@@ -116,6 +116,35 @@ fetch("./heroes.json")
                 localStorage.setItem('cantidad', cantidad);
                 localStorage.setItem('importe', importe);
                 localStorage.setItem('id', e.id)
+
+
+                /** CARRITO */
+                let arrayProductos = [];
+                let objetoProducto = { id: e.id, precio: precio, cantidad: cantidad, importe: importe };
+                objetoProducto.precio = precio;
+                objetoProducto.cantidad = cantidad;
+                objetoProducto.importe = importe;
+
+                console.log(objetoProducto);
+                arrayProductos.push(objetoProducto);
+                console.log(arrayProductos);
+
+                localStorage.setItem('arrayProductos', arrayProductos)
+
+                const cantidad2 = localStorage.getItem('cantidad');
+                const importe2 = localStorage.getItem('importe');
+            /*
+                let auxPrecio=0;
+                let auxCantidad=0;
+                for(let e of arrayProductos){
+                    auxPrecio+=e.importe;
+                    auxCantidad+=e.cantidad;
+                }
+                numeroArriba.textContent = auxCantidad;
+                precioArriba.textContent = auxPrecio;
+*/
+
+
             });
 
 
@@ -133,6 +162,8 @@ fetch("./heroes.json")
             btn_carrito.addEventListener('click', () => {
 
             })
+
+
 
         } else {
             console.log('Héroe no encontrado');

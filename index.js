@@ -34,12 +34,6 @@ fetch("./heroes.json")
       });
 
 
-const cantidad=localStorage.getItem('cantidad');
-const importe=localStorage.getItem('importe');
-const numeroArriba=document.querySelector('.numeroArriba');
-const precioArriba=document.querySelector('.precioArriba');
-numeroArriba.textContent=cantidad;
-precioArriba.textContent=importe;
 
     })
     .catch(error => {
@@ -47,3 +41,10 @@ precioArriba.textContent=importe;
     });
 
 
+/**CARRITO */
+    const cantidad=localStorage.getItem('cantidad');
+    const importe=localStorage.getItem('importe');
+    const numeroArriba=document.querySelector('.numeroArriba');
+    const precioArriba=document.querySelector('.precioArriba');
+    numeroArriba.textContent=cantidad;
+    precioArriba.textContent=importe;
