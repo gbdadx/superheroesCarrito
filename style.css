@@ -45,6 +45,7 @@ text-align: right;
 #footer{
     align-items: center;
     height: 3rem;
+    padding:2rem;
 }
 
 .tarjetero {
