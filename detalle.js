@@ -120,6 +120,8 @@ fetch("./heroes.json")
 
                 /** CARRITO */
                 let arrayProductos = [];
+                localStorage.setItem('arrayProductos', arrayProductos)
+
                 let objetoProducto = { id: e.id, precio: precio, cantidad: cantidad, importe: importe };
                 objetoProducto.precio = precio;
                 objetoProducto.cantidad = cantidad;
@@ -129,20 +131,7 @@ fetch("./heroes.json")
                 arrayProductos.push(objetoProducto);
                 console.log(arrayProductos);
 
-                localStorage.setItem('arrayProductos', arrayProductos)
 
-                const cantidad2 = localStorage.getItem('cantidad');
-                const importe2 = localStorage.getItem('importe');
-            /*
-                let auxPrecio=0;
-                let auxCantidad=0;
-                for(let e of arrayProductos){
-                    auxPrecio+=e.importe;
-                    auxCantidad+=e.cantidad;
-                }
-                numeroArriba.textContent = auxCantidad;
-                precioArriba.textContent = auxPrecio;
-*/
 
 
             });
@@ -155,7 +144,7 @@ fetch("./heroes.json")
 
             const tituloDetalle = document.querySelector('.tituloDetalle');
             tituloDetalle.innerHTML = `<div class="block">
-                <h1 style="text-align:right;">${e.name}</h1>
+                <h2 style="text-align:right;">${e.name}</h2>
                 </div>`
 
             const btn_carrito = document.querySelector('.btn_carrito');

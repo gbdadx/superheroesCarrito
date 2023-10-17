@@ -18,6 +18,7 @@ fetch("./heroes.json")
             <p>${e.biography.alignment}</p>
         </div>
         <div class="cardF">
+        <span class="precioCard">$ ${1000-e.id}</span>
             <button type="button" class="btn_${e.id} btn_card">Detalle</button>
         </div>
         </div>`;
